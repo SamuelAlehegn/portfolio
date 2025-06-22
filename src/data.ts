@@ -4,7 +4,7 @@ export const portfolioData: PortfolioData = {
   personalInfo: {
     name: "Samuel A Takele",
     tagline: "Electrical & Computer Engineer | Software Developer",
-    profilePictureUrl: "https://picsum.photos/seed/samueltakele/300/300",
+    profilePictureUrl:"src/assets/photo",
     dateOfBirth: "18/05/1999",
     nationality: "Ethiopian",
     gender: "Male",
@@ -93,25 +93,9 @@ export const portfolioData: PortfolioData = {
     },
   ],
   skills: {
-    programmingLanguages: [
-      "C++",
-      "Java",
-      "Python",
-      "TypeScript",
-    ],
-    frameworksLibraries: [
-      "Angular",
-      "Spring Boot",
-      "Streamlit",
-      "React",
-    ],
-    tools: [
-      "Git",
-      "Docker",
-      "OpenShift (OCP)",
-      "JIRA",
-      "Confluence",
-    ],
+    programmingLanguages: ["C++", "Java", "Python", "TypeScript"],
+    frameworksLibraries: ["Angular", "Spring Boot", "Streamlit", "React"],
+    tools: ["Git", "Docker", "OpenShift (OCP)", "JIRA", "Confluence"],
     microsoftOffice: ["Microsoft Word", "Excel", "PowerPoint", "Access"],
     other: [
       "IoT",
