@@ -1,6 +1,7 @@
 import './App.css'
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
+import EducationSection from './components/EducationSection';
 import ExperienceSection from './components/ExperienceSection';
 import Footer from './components/Footer';
 import HomeSection from './components/Home'
@@ -10,7 +11,8 @@ import SkillsSection from './components/SkillsSection';
 import { portfolioData } from './data';
 
 function App() {
-  const { personalInfo, aboutMe, workExperience, projects, skills } = portfolioData;
+  const { personalInfo, aboutMe, workExperience, projects, skills, education } =
+    portfolioData;
 
 
   return (
@@ -22,6 +24,7 @@ function App() {
         <ExperienceSection workExperience={workExperience} />
         <ProjectsSection projects={projects} />
         <SkillsSection skills={skills} />
+        <EducationSection education={education} />
         <ContactSection personalInfo={personalInfo} />
       </main>
       <Footer personalInfo={personalInfo} />
