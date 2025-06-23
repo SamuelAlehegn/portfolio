@@ -4,10 +4,11 @@ import ExperienceSection from './components/ExperienceSection';
 import HomeSection from './components/Home'
 import Navbar from './components/Navbar';
 import ProjectsSection from './components/ProjectsSection';
+import SkillsSection from './components/SkillsSection';
 import { portfolioData } from './data';
 
 function App() {
-  const { personalInfo, aboutMe, workExperience, projects } = portfolioData;
+  const { personalInfo, aboutMe, workExperience, projects, skills } = portfolioData;
 
 
   return (
@@ -18,6 +19,7 @@ function App() {
         <AboutSection aboutMe={aboutMe} personalInfo={personalInfo} />
         <ExperienceSection workExperience={workExperience} />
         <ProjectsSection projects={projects} />
+        <SkillsSection skills={skills} />
       </main>
     </div>
   );
