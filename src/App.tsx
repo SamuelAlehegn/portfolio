@@ -2,6 +2,7 @@ import './App.css'
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import ExperienceSection from './components/ExperienceSection';
+import Footer from './components/Footer';
 import HomeSection from './components/Home'
 import Navbar from './components/Navbar';
 import ProjectsSection from './components/ProjectsSection';
@@ -23,6 +24,7 @@ function App() {
         <SkillsSection skills={skills} />
         <ContactSection personalInfo={personalInfo} />
       </main>
+      <Footer personalInfo={personalInfo} />
     </div>
   );
 }
