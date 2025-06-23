@@ -22,7 +22,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ personalInfo }) => {
         >
           Say Hello
         </a>
-
+{/* 
         <form className="space-y-6 text-left">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-light-slate">Full Name</label>
@@ -42,6 +42,8 @@ const ContactSection: React.FC<ContactSectionProps> = ({ personalInfo }) => {
             </button>
           </div>
         </form> 
+        */}
+      
         
         <div className="mt-16 flex justify-center space-x-6 md:hidden">
            {personalInfo.github && (
