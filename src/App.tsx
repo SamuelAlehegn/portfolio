@@ -3,10 +3,11 @@ import AboutSection from './components/AboutSection';
 import ExperienceSection from './components/ExperienceSection';
 import HomeSection from './components/Home'
 import Navbar from './components/Navbar';
+import ProjectsSection from './components/ProjectsSection';
 import { portfolioData } from './data';
 
 function App() {
-  const { personalInfo, aboutMe, workExperience } = portfolioData;
+  const { personalInfo, aboutMe, workExperience, projects } = portfolioData;
 
 
   return (
@@ -16,6 +17,7 @@ function App() {
         <HomeSection personalInfo={personalInfo} />
         <AboutSection aboutMe={aboutMe} personalInfo={personalInfo} />
         <ExperienceSection workExperience={workExperience} />
+        <ProjectsSection projects={projects} />
       </main>
     </div>
   );
