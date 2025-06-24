@@ -5,6 +5,7 @@ import EducationSection from './components/EducationSection';
 import ExperienceSection from './components/ExperienceSection';
 import Footer from './components/Footer';
 import HomeSection from './components/Home'
+import LeftSocialBar from './components/LeftSocialBar';
 import Navbar from './components/Navbar';
 import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="min-h-screen bg-navy font-sans text-light-slate">
       <Navbar personalInfo={personalInfo} />
+      <LeftSocialBar personalInfo={personalInfo} />
       <main className="px-6 sm:px-12 md:px-24 lg:px-36 xl:px-48 2xl:px-64">
         <HomeSection personalInfo={personalInfo} />
         <AboutSection aboutMe={aboutMe} personalInfo={personalInfo} />
