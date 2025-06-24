@@ -8,6 +8,7 @@ import HomeSection from './components/Home'
 import LeftSocialBar from './components/LeftSocialBar';
 import Navbar from './components/Navbar';
 import ProjectsSection from './components/ProjectsSection';
+import RightEmailBar from './components/RightEmailBar';
 import SkillsSection from './components/SkillsSection';
 import { portfolioData } from './data';
 
@@ -20,6 +21,7 @@ function App() {
     <div className="min-h-screen bg-navy font-sans text-light-slate">
       <Navbar personalInfo={personalInfo} />
       <LeftSocialBar personalInfo={personalInfo} />
+      <RightEmailBar email={personalInfo.email} />
       <main className="px-6 sm:px-12 md:px-24 lg:px-36 xl:px-48 2xl:px-64">
         <HomeSection personalInfo={personalInfo} />
         <AboutSection aboutMe={aboutMe} personalInfo={personalInfo} />
