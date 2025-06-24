@@ -10,11 +10,19 @@ import Navbar from './components/Navbar';
 import ProjectsSection from './components/ProjectsSection';
 import RightEmailBar from './components/RightEmailBar';
 import SkillsSection from './components/SkillsSection';
+import VolunteeringSection from './components/VolunteeringSection';
 import { portfolioData } from './data';
 
 function App() {
-  const { personalInfo, aboutMe, workExperience, projects, skills, education } =
-    portfolioData;
+  const {
+    personalInfo,
+    aboutMe,
+    workExperience,
+    projects,
+    skills,
+    education,
+    volunteering,
+  } = portfolioData;
 
 
   return (
@@ -29,6 +37,7 @@ function App() {
         <ProjectsSection projects={projects} />
         <SkillsSection skills={skills} />
         <EducationSection education={education} />
+        <VolunteeringSection volunteering={volunteering} />
         <ContactSection personalInfo={personalInfo} />
       </main>
       <Footer personalInfo={personalInfo} />
