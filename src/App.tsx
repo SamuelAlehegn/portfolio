@@ -34,9 +34,9 @@ function App() {
         <HomeSection personalInfo={personalInfo} />
         <AboutSection aboutMe={aboutMe} personalInfo={personalInfo} />
         <ExperienceSection workExperience={workExperience} />
+        <EducationSection education={education} />
         <ProjectsSection projects={projects} />
         <SkillsSection skills={skills} />
-        <EducationSection education={education} />
         <VolunteeringSection volunteering={volunteering} />
         <ContactSection personalInfo={personalInfo} />
       </main>
