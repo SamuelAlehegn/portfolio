@@ -4,7 +4,7 @@ export const portfolioData: PortfolioData = {
   personalInfo: {
     name: "Samuel A Takele",
     tagline: "Electrical & Computer Engineer | Software Developer",
-    profilePictureUrl:"src/assets/photo",
+    profilePictureUrl: "src/assets/photo.png",
     dateOfBirth: "18/05/1999",
     nationality: "Ethiopian",
     gender: "Male",
@@ -84,11 +84,21 @@ export const portfolioData: PortfolioData = {
     },
     {
       title: "Java-based Desktop Application",
-      period: "06/03/2021 - 04/04/2022",
+      period: "15/12/2023 - 21/02/2023",
       description:
         "This Java-based desktop application provides a comprehensive solution for users to purchase movie and stadium tickets, as well as browse and purchase books from an integrated online bookstore.",
       technologies: ["Java", "Java Swing/FX"],
       githubLink: "https://github.com/SamuelAlehegn/java_project1",
+      liveLink: "#",
+    },
+    {
+      title: "Digital Communication System Trainer ",
+      period: "06/03/2021 - 04/04/2022",
+      description:
+        "A digital communication system trainer built in Python for use with various lab experiments",
+      technologies: ["Python", "Django", "HTML", "CSS"],
+      githubLink:
+        "https://github.com/SamuelAlehegn/PYTHON-BASED-DIGITAL-COMMUNICATION-SYSTEM-TRAINER",
       liveLink: "#",
     },
   ],
